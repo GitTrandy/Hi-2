@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WECHATINFO</key>
+	<dict>
+		<key>WeChatAppSecret</key>
+		<string>b4da587d6210f1b3fa328ea69eff050e</string>
+		<key>WeChatAppkey</key>
+		<string>wx6d240dcf8ac8778c</string>
+	</dict>
+	<key>QQINFO</key>
+	<dict>
+		<key>QQAppKey</key>
+		<string>1101720738</string>
+		<key>QQAppSecret</key>
+		<string>6zdrCUIPF7httvti</string>
+	</dict>
+	<key>SINAINFO</key>
+	<dict>
+		<key>SinaAppkey</key>
+		<string>3393152417</string>
+		<key>SinaAppSecret</key>
+		<string>0bbe5b9cdecbfb8b975c1b7742bd9d69</string>
+		<key>SinaRedirectURI</key>
+		<string>http://www.sina.com</string>
+	</dict>
+	<key>AVOSINFO</key>
+	<dict>
+		<key>AVOSMasterkey</key>
+		<string>airg6jwy4alohaftohfkiwooljjz9bf0qq9swoby1lyq6q04</string>
+		<key>AVOSAppkey</key>
+		<string>snw80ruufnfx9p4yal03xd34qhwo6512yuqfg2oti6qexe6f</string>
+		<key>AVOSAppID</key>
+		<string>04g1equ6c5g41aeqhlfq19jyab9u8r6udljkd6ovzrfopjin</string>
+	</dict>
+	<key>PERSON_TIP_INFO</key>
+	<dict>
+		<key>昵称</key>
+		<string>请输入真实姓名，如潘峰</string>
+		<key>标签</key>
+		<string>请输入你的标签,如 APP推广,电商服务,用空格隔开</string>
+		<key>职业</key>
+		<string>请输入你的头衔,如 易商公司的CTO,多个头衔用空格隔开</string>
+		<key>生日</key>
+		<string>我们会帮你计算好年龄,星座</string>
+	</dict>
+</dict>
+</plist>

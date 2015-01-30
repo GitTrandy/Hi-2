@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TabBar</key>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>icon_1_n</string>
+			<key>selectedImage</key>
+			<string>icon_1_d</string>
+			<key>title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>icon_2_n</string>
+			<key>selectedImage</key>
+			<string>icon_2_d</string>
+			<key>title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>icon_3_n</string>
+			<key>selectedImage</key>
+			<string>icon_3_d</string>
+			<key>title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>icon_4_n</string>
+			<key>selectedImage</key>
+			<string>icon_4_d</string>
+			<key>title</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>icon_5_n</string>
+			<key>selectedImage</key>
+			<string>icon_5_d</string>
+			<key>title</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>USER_API</key>
+	<dict>
+		<key>同一Wif的用户列表</key>
+		<string>/member/list.action</string>
+		<key>查询指定用户信息 </key>
+		<string>/member/find.action</string>
+	</dict>
+</dict>
+</plist>

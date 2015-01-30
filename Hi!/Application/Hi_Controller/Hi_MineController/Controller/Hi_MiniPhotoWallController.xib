@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6221" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Hi_MiniPhotoWallController">
+            <connections>
+                <outlet property="foureBtn" destination="njX-do-TVf" id="Bs1-7s-jve"/>
+                <outlet property="oneBtn" destination="0pr-Dr-KDx" id="nxi-yD-833"/>
+                <outlet property="threeBtn" destination="wvZ-tG-tJv" id="dkr-uf-fdC"/>
+                <outlet property="twoBtn" destination="Otn-rR-Fwl" id="Ts4-Hg-xfw"/>
+                <outlet property="view" destination="iN0-l3-epB" id="XHs-MW-oi4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view tag="99" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pr-Dr-KDx" userLabel="1">
+                    <rect key="frame" x="100" y="95" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="I1C-RD-ZeY"/>
+                        <constraint firstAttribute="width" constant="120" id="xHH-Sj-BmA"/>
+                    </constraints>
+                    <state key="normal" image="person_imageView">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="CYq-jr-C5T"/>
+                    </connections>
+                </button>
+                <button autoresizesSubviews="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" tag="1" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Otn-rR-Fwl" userLabel="2">
+                    <rect key="frame" x="120" y="245" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="VrH-zV-soK"/>
+                        <constraint firstAttribute="width" constant="80" id="qGe-h5-vfh"/>
+                    </constraints>
+                    <state key="normal" image="person_add_image">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="ebf-VV-fts"/>
+                    </connections>
+                </button>
+                <button autoresizesSubviews="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" tag="2" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvZ-tG-tJv" userLabel="3">
+                    <rect key="frame" x="210" y="245" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="gSB-Df-A1m"/>
+                    </constraints>
+                    <state key="normal" image="person_add_image">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="imageView.layer.borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="imageView.layer.borderWidth">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="imageView.clipsToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="arV-yS-IVA"/>
+                    </connections>
+                </button>
+                <button autoresizesSubviews="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" tag="3" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njX-do-TVf" userLabel="4">
+                    <rect key="frame" x="30" y="245" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="CxP-SK-xha"/>
+                    </constraints>
+                    <state key="normal" image="person_add_image">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="tTn-ih-tPG"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PS:亲,开心果!可以提供上传4张图片,点击可以更换图片,上传更多可以让TA看到你的有更多美照" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZkZ-gP-Dn5">
+                    <rect key="frame" x="48" y="483" width="224" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="ge0-ga-8KK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pb-XC-lS2">
+                    <rect key="frame" x="108" y="333" width="105" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="dNE-uB-rzs"/>
+                    </constraints>
+                    <state key="normal" title="您的照片墙">
+                        <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="viewMyPhotoWall:" destination="-1" eventType="touchUpInside" id="H38-d2-qKy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="Otn-rR-Fwl" secondAttribute="centerX" id="4j0-eQ-Lqn"/>
+                <constraint firstItem="Otn-rR-Fwl" firstAttribute="top" secondItem="0pr-Dr-KDx" secondAttribute="bottom" constant="30" id="5Zv-8V-sKj"/>
+                <constraint firstItem="ZkZ-gP-Dn5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="48" id="A3l-57-4zl"/>
+                <constraint firstItem="Otn-rR-Fwl" firstAttribute="leading" secondItem="njX-do-TVf" secondAttribute="trailing" constant="10" id="BJh-tE-xiW"/>
+                <constraint firstItem="wvZ-tG-tJv" firstAttribute="bottom" secondItem="Otn-rR-Fwl" secondAttribute="bottom" id="EZR-x1-wYd"/>
+                <constraint firstItem="wvZ-tG-tJv" firstAttribute="top" secondItem="Otn-rR-Fwl" secondAttribute="top" id="Q5h-BZ-ekK"/>
+                <constraint firstItem="wvZ-tG-tJv" firstAttribute="bottom" secondItem="njX-do-TVf" secondAttribute="bottom" id="VMK-fa-0t1"/>
+                <constraint firstItem="wvZ-tG-tJv" firstAttribute="leading" secondItem="Otn-rR-Fwl" secondAttribute="trailing" constant="10" id="XkY-ih-D57"/>
+                <constraint firstAttribute="centerX" secondItem="0pr-Dr-KDx" secondAttribute="centerX" id="ZAu-Nf-eTw"/>
+                <constraint firstItem="6Pb-XC-lS2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="108" id="a00-nb-ta3"/>
+                <constraint firstAttribute="bottom" secondItem="ZkZ-gP-Dn5" secondAttribute="bottom" constant="20" id="aTh-Ob-QhY"/>
+                <constraint firstItem="wvZ-tG-tJv" firstAttribute="top" secondItem="njX-do-TVf" secondAttribute="top" id="ctf-PG-lGx"/>
+                <constraint firstItem="0pr-Dr-KDx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="95" id="dVR-2y-8a0"/>
+                <constraint firstItem="6Pb-XC-lS2" firstAttribute="top" secondItem="Otn-rR-Fwl" secondAttribute="bottom" constant="8" id="tEd-4h-Oa9"/>
+                <constraint firstAttribute="trailing" secondItem="6Pb-XC-lS2" secondAttribute="trailing" constant="107" id="uYC-8E-T9R"/>
+                <constraint firstAttribute="trailing" secondItem="ZkZ-gP-Dn5" secondAttribute="trailing" constant="48" id="uZB-VE-Tj6"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="327" y="202"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="person_add_image" width="82" height="82"/>
+        <image name="person_imageView" width="122" height="122"/>
+    </resources>
+</document>
